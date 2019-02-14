@@ -1,0 +1,11 @@
+kind: NamespaceSelector
+apiVersion: nomos.dev/v1alpha1
+metadata:
+  name: selector-env-prod
+spec:
+  selector:
+    matchExpressions:                                                                                                                         
+      - {key: environment, operator: In, values: [production]}
+
+
+
