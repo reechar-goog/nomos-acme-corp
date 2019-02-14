@@ -7,7 +7,7 @@ spec:
   enableHierarchicalResourceQuota: true
   git:
     secretType: ssh
-    syncRepo: git@github.com:linde/nomos-acme-corp.git
+    syncRepo: git@github.com:reechar-goog/nomos-acme-corp.git
     syncBranch: master
     policyDir: nomos-root
 
